@@ -2,7 +2,7 @@ package guru.qa;
 
 import org.junit.jupiter.api.Test;
 
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.Matchers.is;
 
@@ -34,7 +34,7 @@ public class ReqresInHwTests {
                 .log().status()
                 .log().body()
                 .statusCode(201)
-                .body("name", is("morpheus"));
+                .body("name", is ("morpheus"));
 
     }
 
