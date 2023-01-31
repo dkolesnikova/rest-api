@@ -1,10 +1,10 @@
-package guru.qa;
+package guru.qa.tests;
 
 import guru.qa.lombok.LombokUserData;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static guru.qa.Specs.*;
+import static guru.qa.specs.Specs.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,4 +1,4 @@
-package guru.qa;
+package guru.qa.specs;
 
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
